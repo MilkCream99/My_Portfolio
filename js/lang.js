@@ -65,6 +65,7 @@ function loadLanguage(lang) {
   $(document).ready(function() {
     // Scroll to the top when the page loads or is refreshed
     $('html, body').animate({ scrollTop: 0 }, 0);
+    new WOW().init(); 
 });
 
   
